@@ -1,4 +1,4 @@
 # km-to-miles-js
  km to miles js
  
-![km to miles output](https://github.com/krupesh788/km-to-miles-js/assets/71176180/70110d44-ee8f-4359-a652-1a2b7bf407b4)
+![Kmtomiles](https://github.com/krupesh788/Km-to-miles-js/assets/71176180/5ab0081e-60e4-4449-99ab-0f7fc80e04b0)
