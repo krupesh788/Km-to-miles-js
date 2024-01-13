@@ -3,32 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
 
-    <h1>Kilometers to Miles Converter </h1>
+    <div class="container">
 
-    Enter distance in Kilometers:
-    <input type="number" name="" id="km">
-
-    <button onclick="convert()">Convert to Miles</button>
-
-    <p id ="p1"></p>
+        <h1>Kilometers to Miles Converter </h1>
+        <br>
+        <br>
+        
+        Enter distance in Kilometers:
+        <input type="number" name="" id="km">
+        
+        <button class="btn" onclick="convert()">Convert to Miles</button>
+        <br>
+        <br>
+        
+        <p id ="p1"></p>
+    </div>
 
     
-    <script>
-        function convert(){
-
-            let km = document.getElementById("km").value;
-
-
-            let miles = km * 0.62137;
-
-
-            document.getElementById("p1").innerHTML = `${km} kilometers is approximately ${miles} miles`;
-        }
-
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>
